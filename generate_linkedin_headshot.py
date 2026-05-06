@@ -4,10 +4,13 @@ from google.genai import types
 client = genai.Client(api_key="AIzaSyDtwdtgct2kI0t0gLW-ChBkcHU6_x0IRtc")
 
 prompt = """
-Professional LinkedIn headshot of a person,
-business casual attire, neutral background,
-soft studio lighting, friendly smile,
-sharp focus, high quality portrait photography
+Professional LinkedIn headshot of a young man in his mid-20s,
+curly dark brown medium-length hair, tan skin, clean shaven,
+big warm friendly smile showing white teeth, bright eyes,
+wearing a navy blue button-down shirt,
+soft neutral light gray studio background,
+soft professional studio lighting, sharp focus,
+high quality portrait photography, photorealistic
 """
 
 result = client.models.generate_images(
