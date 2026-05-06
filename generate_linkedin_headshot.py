@@ -5,12 +5,14 @@ client = genai.Client(api_key="AIzaSyDtwdtgct2kI0t0gLW-ChBkcHU6_x0IRtc")
 
 prompt = """
 Professional LinkedIn headshot of a young man in his mid-20s,
-curly dark brown medium-length hair, tan skin, clean shaven,
-big warm friendly smile showing white teeth, bright eyes,
-wearing a navy blue button-down shirt,
-soft neutral light gray studio background,
-soft professional studio lighting, sharp focus,
-high quality portrait photography, photorealistic
+voluminous wavy dark brown hair with natural texture,
+hazel green-brown eyes, olive tan skin tone,
+strong defined jawline and high cheekbones, light stubble,
+athletic build, confident natural expression with a slight smile,
+wearing a well-fitted navy blue blazer over a white dress shirt,
+clean light gray studio background,
+soft professional studio lighting from the front,
+sharp focus, photorealistic, high quality portrait photography
 """
 
 result = client.models.generate_images(
